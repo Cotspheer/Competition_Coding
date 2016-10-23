@@ -12,7 +12,7 @@ public class team
     public static int recursionCount = 0;
     public static int maxRecCount = 10;
 
-    public static void Main(string[] args)
+    public static void bMain(string[] args)
     {
         var inputStream = new StreamReader(new System.IO.FileInfo("team.in").OpenRead());
 

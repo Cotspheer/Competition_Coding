@@ -51,6 +51,8 @@
     <Compile Include="teamb.cs" />
     <Compile Include="team_greedy.cs" />
     <Compile Include="teamc.cs" />
+    <Compile Include="win.cs" />
+    <Compile Include="template.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="team.in">
@@ -66,6 +68,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="App.config" />
+    <None Include="win.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="template.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
